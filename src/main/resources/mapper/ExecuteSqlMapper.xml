@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kim.nzxy.dispense.mapper.ExecuteSqlMapper">
+  <resultMap id="BaseResultMap" type="kim.nzxy.dispense.entiey.ExecuteSql">
+    <!--@mbg.generated-->
+    <!--@Table execute_sql-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="sql_content" jdbcType="LONGVARCHAR" property="sqlContent" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, sql_content
+  </sql>
+</mapper>
